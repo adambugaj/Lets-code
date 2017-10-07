@@ -8,14 +8,17 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
     </head>
-    <body>
-    
-        <div class="container"
-             <div class="alert alert-secondary" role="alert">
-  This is a secondary alert—check it out!
-</div>
-             
-             </div>
+    <body onload="all()">
+    <div class="container">
+        <h2>for loop</h2>
+        
+        <div class="alert alert-success" role="alert" id="resultMonthly">
+        </div>
+        <div class="alert alert-info" role="alert" id="resultDaily">
+        </div>
+        <div onclick="click()" class="alert alert-warning" role="alert" id="resultHourly">
+        </div>
+        </div>
 
         
         
@@ -28,7 +31,7 @@
         <!-- Bootstrap -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <!-- JS -->
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="forloop.js"></script>
         
     </body>
 </html>
