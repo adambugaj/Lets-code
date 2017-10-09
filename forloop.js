@@ -22,7 +22,7 @@ function all() {
 }
 
 function clickTwo() {
-    document.getElementById("resultHourly").innerHTML = "";
+    document.getElementById("resultHourly").innerHTML = ""; 
     for (let i = 0; i < vacationPlaces.length; i++) {
     document.getElementById("resultHourly").innerHTML += vacationPlaces[i] + ", ";
  }
