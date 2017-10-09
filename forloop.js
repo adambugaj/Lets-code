@@ -1,4 +1,3 @@
-
 const vacationPlaces = ['Praha','Vien','Munich'];
 
 function backwards() {
@@ -23,5 +22,8 @@ function all() {
 }
 
 function clickTwo() {
-    document.getElementById("resultHourly").innerHTML = "hi";
+    document.getElementById("resultHourly").innerHTML = "";
+    for (let i = 0; i < vacationPlaces.length; i++) {
+    document.getElementById("resultHourly").innerHTML += vacationPlaces[i] + ", ";
+ }
 }
