@@ -22,6 +22,6 @@ function all() {
     forwards();
 }
 
-function click() {
+function clickTwo() {
     document.getElementById("resultHourly").innerHTML = "hi";
 }
